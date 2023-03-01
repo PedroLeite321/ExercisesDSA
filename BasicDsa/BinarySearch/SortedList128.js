@@ -25,9 +25,9 @@ const binarySetup = (arr, find) =>  {
         }
       }
   }
-  
+
   let a = binarySearch()
   return console.log(a)
 }
 let list = [2,4,6,8,10,12];
-console.log(binarySetup(list, 2))
+binarySetup(list, 2)
